@@ -1,5 +1,5 @@
 import React from 'react';
-import './about.css'
+import './about.module.css'
 import Picture from '../../assets/img/p2.jpg'
 import '../../App.css'
 import resume from '../../assets/pdf/Resume.pdf'
