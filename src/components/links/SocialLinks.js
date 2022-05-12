@@ -16,7 +16,7 @@ const SocialLinks = () => {
                 </div>
             </a>
             <a
-                href={socialsData.github}
+                href={socialsData.linkedIn}
                 target='_blank'
                 rel="noreferrer"
             >
