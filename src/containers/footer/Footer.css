@@ -1,0 +1,42 @@
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 6rem 15rem;
+    text-align: left;
+    background-color: #08092c;
+    color: white;
+    align-items: center;
+}
+.icon_container{
+    display: flex;
+    align-content: flex-end;
+    margin-top: 2rem;
+    text-align: center;
+    align-self: center;
+}
+.icon{
+    margin: 0 1rem;
+    width: 44px;
+    height: 44px;
+    font-size: 1.6rem;
+    line-height: 44px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+    .footer_container {
+        padding: 6rem 5rem;
+    }
+}
+@media screen and (max-width: 488px) {
+    .footer_container {
+        flex-direction: column;
+    }
+}

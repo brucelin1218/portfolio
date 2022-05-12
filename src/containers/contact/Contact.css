@@ -1,0 +1,35 @@
+.contact_container{
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #08092c;
+    flex-direction: column;
+}
+
+.contact_container h1{
+    color: #efefef;
+    font-weight: 300;
+    line-height: 1.25em;
+    font-size: 40px;
+}
+
+.contact_btn{
+    padding: 15px 25px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #d22e2e;
+    color: white;
+    margin-top: 2rem;
+}
+
+.vl {
+    border-left: 1px solid #d22e2e;
+    height: 15px;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    padding-bottom: 4rem;
+}
+

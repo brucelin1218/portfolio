@@ -1,0 +1,123 @@
+.header {
+    padding-top: 80px;
+    background-color: #08092c;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: 0;
+
+}
+
+.text{
+   max-width: 700px;
+    align-items: center;
+    text-align: center;
+    color: #efefef;
+}
+.text h1{
+    line-height: 1.25em;
+    font-size: 40px;
+    font-weight: 700;
+}
+.text h1 span{
+    font-weight: 300;
+}
+.text p{
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header_btn{
+    padding-top: 3rem;
+}
+.header_links{
+    background-color: #08092c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 4rem 0;
+
+}
+.header_button{
+    padding: 15px 25px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #d22e2e;
+    color: white;
+}
+
+.header_button:hover{
+    transform: scale(1.1);
+}
+
+.header_button:active {
+    background-color: #852222;
+}
+
+.welcome h1{
+    font-weight: 400;
+    color: #08092c;
+    -webkit-text-stroke: 0.1vw #555555;
+}
+
+.welcome::before{
+    content: attr(data-text);
+    color: #d22e2e;
+    width: 0;
+    -webkit-text-stroke: 0vw #555555;
+    border-right: 2px #d22e2e;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+    0%
+    {
+        width: 0;
+
+    }
+    70%
+    {
+        width: 100%;
+
+    }
+}
+
+.container h1.text {
+    font-size: 4rem;
+    color: #08092c;
+    -webkit-text-stroke: .1rem #2c3e50;
+    position: relative;
+}
+
+.container h1.text::before {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    color: #d22e2e;
+    -webkit-text-stroke: 0;
+    overflow: hidden;
+    border-right: 2px solid;
+    animation: animate 6s infinite;
+}
+
+@keyframes animate {
+    0%, 10%, 100% {
+        width: 0;
+    }
+    50%, 70% {
+        width: 100%;
+    }
+}
+
+
