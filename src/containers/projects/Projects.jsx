@@ -22,6 +22,11 @@ const Projects = () => {
                             description={projectData.unionDesc}
                             webLink={'https://union-network.netlify.app'}
                 />
+                <OneProject img={Union}
+                            title={'Union'}
+                            description={projectData.unionDesc}
+                            webLink={'https://union-network.netlify.app'}
+                />
 
             </div>
         </div>
