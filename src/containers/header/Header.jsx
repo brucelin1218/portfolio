@@ -20,10 +20,11 @@ const Header = () => {
                     With a passion for Functional and Beautiful Design.
                 </p>
                 <div className='header_btn'>
-                    <Link activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500}>
-                        <button className='header_button' >Projects</button>
-                    </Link>
 
+                    <button className='header_button' >
+                        <Link activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500}>
+                        Projects
+                    </Link></button>
                 </div>
                 <div className='header_links'>
                     <SocialLinks />
