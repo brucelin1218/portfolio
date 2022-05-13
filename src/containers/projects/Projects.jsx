@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css'
 import Union from '../../assets/projects/union.png'
+import Cloud from '../../assets/projects/bc2.png'
 import OneProject from '../../components/OneProject/OneProject';
 import {projectData} from '../../data/socialsData';
 
@@ -17,7 +18,7 @@ const Projects = () => {
                             description={projectData.unionDesc}
                             webLink={'https://union-network.netlify.app'}
                 />
-                <OneProject img={Union}
+                <OneProject img={Cloud}
                             title={'Blue Cloud'}
                             description={projectData.blueCloud}
                             webLink={'https://blue-cloud.vercel.app/'}
