@@ -25,13 +25,12 @@ const About = () => {
                         </h5>
                         <div className="about-txt mb-30">
                             <p>
-                                Eeniam possimus magni quia posuere praesentium laboriosam laudantium laborum quam
-                                dignissim nihil fugiat cursus, elementum deleniti molestiae assumenda. Lste voluptatibus
-                                nascetur luctus vitae quam.
+                                I'm a Full stack software engineer solving the problems using technology power with background in nanotechnologies, programming and civil engineering🖥️
+
                             </p>
                             <p className="mb-0">
-                                Dignissimos nobis dignissim tristique, sequi occaecat cum auctor facilis interdum
-                                torquent pulvinar tenetur tempor ibendum quod.
+                                Tools I fall back to when tackling a problem are:
+                                JavaScript, React.js, Typescript, Next.js, Nest.js, Redux, Redux Toolkit, MobX,  PostgreSQL, Mongoose, MongoDB, Express, Node.js, Git, Webpack, Heroku, Vercel, Netlify,  HTML5, CSS3, SCSS, Bootstrap, Material UI, Figma
                             </p>
                         </div>
 

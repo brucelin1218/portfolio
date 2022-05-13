@@ -18,13 +18,13 @@ const Projects = () => {
                             webLink={'https://union-network.netlify.app'}
                 />
                 <OneProject img={Union}
-                            title={'Union'}
-                            description={projectData.unionDesc}
-                            webLink={'https://union-network.netlify.app'}
+                            title={'Blue Cloud'}
+                            description={projectData.blueCloud}
+                            webLink={'https://blue-cloud.vercel.app/'}
                 />
                 <OneProject img={Union}
-                            title={'Union'}
-                            description={projectData.unionDesc}
+                            title={'Online Store'}
+                            description={projectData.store}
                             webLink={'https://union-network.netlify.app'}
                 />
 
