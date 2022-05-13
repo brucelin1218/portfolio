@@ -9,6 +9,8 @@ import css from '../assets/svg/skills/css.svg'
 import angular from '../assets/svg/skills/angular.svg'
 import javascript from '../assets/svg/skills/javascript.svg'
 import nextJS from '../assets/svg/skills/nextJS.svg'
+import nestJS from '../assets/svg/skills/nestjs.png'
+
 import nuxtJS from '../assets/svg/skills/nuxtJS.svg'
 import nodeJS from '../assets/svg/skills/nodejs.svg'
 import react from '../assets/svg/skills/react.svg'
@@ -106,6 +108,8 @@ export const skillsImage = (skill) => {
             return nextJS;
         case 'nuxt js':
             return nuxtJS;
+        case 'nest js':
+            return nestJS;
         case 'react':
             return react;
         case 'svelte':
@@ -230,6 +234,7 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+
         default:
             break;
     }
