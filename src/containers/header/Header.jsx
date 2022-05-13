@@ -2,7 +2,8 @@ import React from 'react';
 import './Header.css'
 import '../../App.css'
 import SocialLinks from '../../components/links/SocialLinks';
-import {Link} from 'react-router-dom';
+const Scroll = require('react-scroll');
+const Link = Scroll.Link;
 
 const Header = () => {
     return (
@@ -23,8 +24,9 @@ const Header = () => {
 
                     <button className='header_button' >
                         <Link activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500}>
-                        Projects
-                    </Link></button>
+                            Projects
+                        </Link>
+                   </button>
                 </div>
                 <div className='header_links'>
                     <SocialLinks />
