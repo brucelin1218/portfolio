@@ -2,6 +2,7 @@ import React from 'react';
 import './Projects.css'
 import Union from '../../assets/projects/union.png'
 import Cloud from '../../assets/projects/bc2.png'
+import Store from '../../assets/projects/no-image.png'
 import OneProject from '../../components/OneProject/OneProject';
 import {projectData} from '../../data/socialsData';
 
@@ -26,7 +27,7 @@ const Projects = () => {
                             webLink={'https://blue-cloud.vercel.app/'}
                             info={'https://github.com/anarayner/cloud'}
                 />
-                <OneProject img={Union}
+                <OneProject img={Store}
                             title={'Online Store'}
                             description={projectData.store}
                             info={'https://github.com/anarayner/store'}
