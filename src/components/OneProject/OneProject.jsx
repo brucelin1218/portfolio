@@ -19,11 +19,11 @@ const OneProject = (props) => {
                 </button>
                 </a>
                 <a
-                    href={socialsData.github}
+                    href={props.info}
                     target='_blank'
                     rel="noreferrer"
                 >
-                <button className='project_info' >Info
+                <button className='project_info' >GitHub
                 </button>
                 </a>
             </div>
