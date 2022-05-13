@@ -6,7 +6,7 @@
     'MongoDB',
     'MySQL',
     'Next JS',
-     'Nuxt JS',
+     'Nest JS',
      'Node JS',
      'Bootstrap',
      'Typescript',
