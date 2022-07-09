@@ -29,7 +29,7 @@ const About = () => {
 
                             </p>
                             <p className="mb-0">
-                                SKILLS & TECHNOLOGIES
+                                SKILLS & TECHNOLOGIES:
                                 JavaScript, React.js, Typescript, Java, Next.js, Nest.js, Redux, MobX, PostgreSQL, MongoDB, Express, Node.js, Webpack, HTML5, CSS3, SCSS, Bootstrap, Material UI, Figma, Photoshop, Heroku, Vercel, Netlify
                             </p>
                         </div>
