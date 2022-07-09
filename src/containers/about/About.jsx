@@ -18,19 +18,19 @@ const About = () => {
                             about me
                         </h5>
                         <h2 className="about-title">
-                            Hi there, I’m Victoria
+                            Welcome here, I’m Victoria
                         </h2>
                         <h5 className="about-title-3">
                             Software Engineer based in Seattle, USA
                         </h5>
                         <div className="about-txt mb-30">
                             <p>
-                                I'm a Full stack software engineer solving the problems using technology power with background in nanotechnologies, programming and civil engineering🖥️
+                                I'm a Full Stack Software Engineer with a result-oriented mindset, analytical thinking, passion for creative solutions and interested in new opportunities. Coming with sound knowledge of computer system analysis, design, testing and debugging. Successfully designed, built and delivered several full stack projects. Strong attention to detail in order to deliver high-quality products.
 
                             </p>
                             <p className="mb-0">
-                                Tools I fall back to when tackling a problem are:
-                                JavaScript, React.js, Typescript, Next.js, Nest.js, Redux, Redux Toolkit, MobX,  PostgreSQL, Mongoose, MongoDB, Express, Node.js, Git, Webpack, Heroku, Vercel, Netlify,  HTML5, CSS3, SCSS, Bootstrap, Material UI, Figma
+                                SKILLS & TECHNOLOGIES
+                                JavaScript, React.js, Typescript, Java, Next.js, Nest.js, Redux, MobX, PostgreSQL, MongoDB, Express, Node.js, Webpack, HTML5, CSS3, SCSS, Bootstrap, Material UI, Figma, Photoshop, Heroku, Vercel, Netlify
                             </p>
                         </div>
 

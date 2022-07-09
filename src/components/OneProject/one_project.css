@@ -48,7 +48,8 @@
   border: 2px solid #d22e2e;
 }
 .project_info:active {
-  background-color: #852222;
+  background-color: #d22e2e;
+  color: white;
 }
 
 @media screen and (max-width: 1000px) {
